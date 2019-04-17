@@ -79,17 +79,24 @@ header .container
 		h2:last-child
 			i:after
 				margin: 0 5px 0 5px
+				font-weight: 400
+				color: #ccc
 				content: "(0) -"
 
 	nav
+		justify-content: center
 		margin-bottom: 60px
+		display: flex
 
 		a
 			text-transform: uppercase
 			font-size: 14px
 			margin: 0 35px
-
-		a:last-child
+			&:hover
+				transition: ease all 0.2s
+				text-transform: uppercase
+				font-weight: bold
+		.nav-link-outlet:hover
 			color: red
 
 	#title-btn-banner
