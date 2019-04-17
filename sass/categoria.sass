@@ -1,0 +1,159 @@
+body
+	.container
+		#body
+			// buttons
+			.buttons
+				display: flex
+				justify-content: center
+				ul
+					padding: 0
+					display: inline
+					text-align: center
+					margin: 100px 0 55px
+				li
+					margin: 0 20px
+					list-style: none
+					line-height: 40px
+					font:
+						size: 14px
+						weight: bold
+					display: inline-block
+					text-transform: uppercase
+						
+					&:first-child
+						width: 100px
+						height: 40px
+						border: 1px solid black
+			
+			// Title of products
+			.cont-title
+				display: flex
+				margin-bottom: 50px
+				justify-content: space-between
+				h4
+					margin: 0
+					color: #a0a0a0
+					font-size: 14px
+					text-transform: uppercase
+					b
+						color: #000
+				.box1
+					width: 30%
+					h4
+				.box2
+					width: 50%
+					h4
+				.box3
+					width: 25%
+					display: flex
+					line-height: 14px
+					justify-content: flex-end
+					h4
+
+					// Buttons titles
+					button
+						margin: -5px 0 0 020px
+					.button1
+						border: 0
+						padding: 0
+						outline: 0
+						width: 18px
+						height: 21px
+						display: block
+						line-height: 9px
+						word-spacing: -2px
+						background: transparent
+						span
+							width: 6px
+							height: 7px
+							margin: 0px
+							background: #333
+							border-radius: 2px
+							display: inline-block
+							vertical-align: middle
+
+					.button2
+						border: 0
+						padding: 0
+						outline: 0
+						width: 18px
+						height: 21px
+						display: block
+						line-height: 9px
+						word-spacing: -2px
+						background: transparent
+						span
+							width: 95%
+							height: 4px
+							float: right
+							background: #333
+							margin-bottom: 2px
+							border-radius: 2px
+							display: inline-block
+							vertical-align: middle
+							&:before
+								content: ''
+								left: -5px
+								width: 3px
+								height: 4px
+								margin: 0px
+								float: left
+								background: #333
+								border-radius: 2px
+								position: relative
+								display: inline-block
+								
+			// Pagination
+			.e-pag-cont
+				margin-bottom: 100px
+				.e-pag-center
+					display: flex
+					justify-content: center
+					ul
+						margin: 0
+						padding: 0
+						display: flex
+						align-items: center
+						li
+							margin: 0 20px
+							list-style: none
+							font-weight: bold
+
+							&:first-child
+								color: #fff
+								background: #ccc
+								padding: 10px 15px
+							&:last-child
+								padding: 10px 15px
+								border: 1px solid #ccc
+
+	// banner
+	.banner
+		padding: 120px 0
+		background: #454545
+		.cont-banner
+			.cont-h1
+				h1
+					color: #fff
+					font:
+						size: 30px
+						weight: bold
+					margin-bottom: 30px
+					text:
+						align: center
+						transform: uppercase
+			.cont-map
+				display: flex
+				justify-content: center
+				ul
+					margin: 0
+					padding: 0
+					li
+						color: #fff
+						font-size: 14px
+						display: inline
+						list-style: none
+						&:first-child:after
+							content: ' - '
+						&:last-child:before
+							content: ' - '
