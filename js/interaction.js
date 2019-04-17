@@ -24,7 +24,7 @@ $(function(){
 	
 	// Tendencies section
 	$('#tendencies div.col-12:first').wrapInner(images[0]);
-	$('#tendencies div.col-12:last').wrapInner(images[1]);;
+	$('#tendencies div.col-12:last').wrapInner(images[1]);
 	$('#tendencies div.col-6:last').wrapInner(images[2]);
 
 	// Popular section
