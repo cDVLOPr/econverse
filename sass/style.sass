@@ -167,12 +167,26 @@ header .container
 		h1#popular
 			margin: 155px 0 50px 0
 		.row
-			margin: 0 -15px
+			margin: 0 -15px 50px
 			div.col-3
 				padding: 0
 				
 				figure
 					margin: 0 15px
+
+					&:hover
+						border: 1px solid #ccc
+							:radius: 2px
+
+						figcaption
+							h6
+								&:nth-child(2)
+									i
+										opacity: 1
+										&:hover
+											color: red
+											transition: ease  all 0.2s
+
 					img
 						width: 100%
 					figcaption
@@ -186,16 +200,12 @@ header .container
 								font-weight: bold
 								margin: 0 0 70px 20px
 								i
-									margin-left: 110px
+									margin-left: 130px
+									opacity: 0
 
 					.active
 						margin: 0
 						padding-top: 20px
-						border:
-							radius: 2px
-							left: 1px solid #ccc
-							right: 1px solid #ccc
-							bottom: 1px solid #ccc
 						h6
 							&:nth-child(2)
 								margin: 0 0 20px 20px

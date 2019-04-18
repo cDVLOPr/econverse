@@ -12,14 +12,14 @@ $(function(){
 					'<figure id="fig-1"><img src="images/01-tendencies.jpg" alt="Image-01 of the tendencies section"><figcaption><h3>Men Dresses</h3><h4>ver produtos > </h4></figcaption></figure>',
 					'<figure><img src="images/02-tendencies.jpg" alt="Image-02 of the tendencies section"><figcaption><h3>Jewellery</h3><h4>ver produtos > </h4></figcaption></figure>',
 					'<figure><img src="images/03-tendencies.jpg" alt="Image-03 of the tendencies section"><figcaption><h3>Men Dresses</h3><h4>ver produtos > </h4></figcaption></figure>',
-					'<figure><img src="images/01-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55</h6></figcaption></figure>',
+					'<figure><img src="images/01-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption class="active"><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55<i class="far fa-heart"></i></h6></figcaption></figure>',
 					'<figure><img src="images/02-popular.jpg" alt="Mango-Navy"><figcaption class="active"><h6>Mango-Navy</h6><h6>R$ 190.99<i class="far fa-heart"></i></h6></figcaption></figure>',
-					'<figure><img src="images/03-popular.jpg" alt="Gravida Est Quis Euismod"><figcaption><h6>Gravida Est Quis Euismod</h6><h6>R$ 150.55</h6></figcaption></figure>',
-					'<figure><img src="images/04-popular.jpg" alt="Donec Condimentum Fer"><figcaption><h6>Donec Condimentum Fer</h6><h6>R$ 310.05</h6></figcaption></figure>',
-					'<figure><img src="images/05-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55</h6></figcaption></figure>',
-					'<figure><img src="images/06-popular.jpg" alt="Mongo-Navy"><figcaption><h6>Mongo-Navy</h6><h6>R$ 150.55</h6></figcaption></figure>',
-					'<figure><img src="images/07-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55</h6></figcaption></figure>',
-					'<figure><img src="images/08-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55</h6></figcaption></figure>'
+					'<figure><img src="images/03-popular.jpg" alt="Gravida Est Quis Euismod"><figcaption class="active"><h6>Gravida Est Quis Euismod</h6><h6>R$ 150.55<i class="far fa-heart"></i></h6></figcaption></figure>',
+					'<figure><img src="images/04-popular.jpg" alt="Donec Condimentum Fer"><figcaption class="active"><h6>Donec Condimentum Fer</h6><h6>R$ 310.05<i class="far fa-heart"></i></h6></figcaption></figure>',
+					'<figure><img src="images/05-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption class="active"><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55<i class="far fa-heart"></i></h6></figcaption></figure>',
+					'<figure><img src="images/06-popular.jpg" alt="Mongo-Navy"><figcaption class="active"><h6>Mongo-Navy</h6><h6>R$ 150.55<i class="far fa-heart"></i></h6></figcaption></figure>',
+					'<figure><img src="images/07-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption class="active"><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55<i class="far fa-heart"></i></h6></figcaption></figure>',
+					'<figure><img src="images/08-popular.jpg" alt="Creative Adidas T-Shirts"><figcaption class="active"><h6>Creative Adidas T-Shirts</h6><h6>R$ 150.55<i class="far fa-heart"></i></h6></figcaption></figure>'
 				 ];
 	
 	// Tendencies section
