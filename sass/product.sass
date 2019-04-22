@@ -1,9 +1,8 @@
 body
-	// banner
-	
+	// banner	
 	.e-banner
-		padding: 65px 0
 		display: flex
+		padding: 65px 0
 		background: #333
 		justify-content: center
 		ul
@@ -20,11 +19,14 @@ body
 					content: ' - '
 	.container
 		#body
+			// product section
 			section.e-product
-				margin-top: 55px
 				display: flex
+				margin-top: 55px
 				justify-content: center
+				// left column
 				.e-product-col-left
+					margin-right: 85px
 					.e-product-image
 						margin-bottom: 20px
 					.e-product-image-small-container
@@ -34,5 +36,173 @@ body
 						.e-product-image2
 						.e-product-image3
 						.e-product-image4
+				// right column
 				.e-product-col-right
-					width: 100%
+					.e-title-price-container
+						h2
+							color: #777
+							font-size: 30px
+							margin: 0 0 30px 0
+						h3
+							margin: 0 0 50px 0
+							font:
+								size: 30px
+								weight: bold
+					.e-text-container
+						p
+							color: #777
+							font-size: 14px
+							line-height: 24px
+							margin-bottom: 50px
+					.e-bar
+						margin-bottom: 50px
+						border: 1px solid  #e6e6e6
+					.e-color-container
+						margin-bottom: 30px
+						h4
+							margin: 0 0 15px
+							text-transform: uppercase
+							font:
+								size: 14px
+								weight: bold
+							&:after
+								color: red
+								content: ' *'
+								font-weight: lighter
+						.e-box-color
+							display: flex
+							.e-box-color1
+								width: 21px
+								height: 21px
+								margin-top: 3px
+								background: #0069cb
+							.e-box-color
+								padding: 2px
+								margin: 0 5px
+								border: 1px solid black
+								.e-box-color2
+									width: 21px
+									height: 21px
+									background: #ff6565
+							.e-box-color3
+								width: 21px
+								height: 21px
+								margin-top: 3px
+								margin-right: 5px
+								background: #7854ff
+							.e-box-color4
+								width: 21px
+								height: 21px
+								margin-top: 3px
+								margin-left: 3px
+								background: #00cd65
+					.e-height-container
+						margin-bottom: 50px
+						h4
+							margin: 0 0 0 0
+							text-transform: uppercase
+							font:
+								size: 14px
+								weight: bold
+						.e-height-options
+							display: flex
+							margin: 30px 0 0 -7px
+							.e-height-options-child
+								h4
+									a
+										color: #333
+										padding: 7px
+										margin: 0 7px
+										background: #efefef
+										font:
+											size: 14px
+											weight: bold
+										&:focus
+											color: #fff
+											background: #333
+											font-weight: bold
+								
+					.e-buy-container
+						display: flex
+						margin-bottom: 50px
+						justify-content: space-between
+						.e-quantity
+							.e-quantity-block
+								border: 1px solid #ccc
+								button
+									border: 0
+									padding: 0
+									background: transparent
+								.e-button-minus
+									margin-left: 15px
+								input
+									border: 0  
+									margin: 0
+									outline: none
+									padding: 23px 0
+									font-weight: bold
+									text-align: center
+									&[type=number]
+										margin: 0
+										appearance: textfield
+										-moz-appearance: textfield
+									&[type=number]::-webkit-inner-spin-button
+										text-align: center
+										-webkit-appearance: none
+								.e-input
+								.e-button-more
+									margin-right: 15px
+
+						.e-buy
+							.e-box1
+								.e-box2
+									padding: 5px
+									background: #333
+									box-shadow: 0 5px 10px #bdbdbd
+									h3
+										margin: 0 0 0 0
+										background: #333
+										padding: 20px 60px
+										border: 1px solid  #a0a0a0
+										font:
+											size: 14px
+											weight: bold
+										a
+											color: #fff
+											text-transform: uppercase
+					.e-bar2
+						margin-bottom: 30px
+						border: 1px solid  #e6e6e6
+					.e-description-container
+						h3
+							margin: 0 0 30px 0
+							text-transform: uppercase
+							font:
+								size: 14px
+								weight: bold
+							&:after
+								content: '-'
+								float: right
+						p
+							color: #777
+							margin: 0 0 0 0
+							font-size: 14px
+							line-height: 24px
+					.e-bar3
+						margin: 30px 0
+						border: 1px solid  #e6e6e6
+					.e-specification-container
+						h2
+							margin: 0 0 0 0
+							text-transform: uppercase
+							font:
+								size: 14px
+								weight: bold
+							&:after
+								content: '+'
+								float: right
+					.e-bar4
+						margin: 30px 0 0
+						border: 1px solid  #e6e6e6
+	footer
+		margin-top: 0
